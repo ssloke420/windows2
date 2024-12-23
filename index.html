@@ -2,8 +2,27 @@
 <html>
   <head>
     <title>Windows OS</title>
+    <style>
+      .taskbar {
+          position: absolute;
+          width: 100%;
+          background-color: rgb(211,211,211,128);
+          bottom: 0;
+          left: 0;
+          display: flex;
+          align-items: center;
+          height: 50px; /* Increased height to fit search bar */
+          padding: 0 10px; /* Added padding for better spacing */
+          overflow: hidden;
+      }
+      .taskbar img {
+          width: auto;
+          height: 30px;
+          margin: 5px;
+      }
+    </style>
   </head>
   <body>
-    
+    <div class="taskbar" id = "taskbar"> </div>
   </body>
 </html>
