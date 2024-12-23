@@ -38,11 +38,18 @@
           height: 30px; /* Keep consistent height */
           margin: 5px; /* Optional: spacing around the image */
       }
+      .search {
+          width: 150px;
+          border-radius: 10px;
+      }
 
     </style>
   </head>
   <body>
     <div class="desktop" id="desktop"> </div>
-    <div class="taskbar" id = "taskbar"> <img src="start.png"></div>
+    <div class="taskbar" id = "taskbar">
+      <img src="start.png">
+      <input type="text" placeholder="\1F50D Search" id = "search" class = "search">
+    </div>
   </body>
 </html>
