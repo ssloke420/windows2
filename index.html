@@ -5,27 +5,27 @@
     <style>
       body {
         background-image: URL('wallpaper.jpg');
-        background-size: fill;
+        background-size: contain;
       }
       .taskbar {
           position: absolute;
           width: 100%;
-          background-color: rgb(211,211,211,128);
+          background-color: rgba(243, 243, 243, 1);
           bottom: 0;
           left: 0;
           display: flex;
-          align-items: center;
+          align-items: center; /* Vertically centers children */
+          justify-content: center; /* Horizontally centers children */
           height: 50px; /* Increased height to fit search bar */
           padding: 0 10px; /* Added padding for better spacing */
           overflow: hidden;
       }
+
       .taskbar img {
-          width: auto;
-          height: 30px;
-          margin: 5px;
-          text-align:center;
-          float: center;
+          height: 30px; /* Keep consistent height */
+          margin: 5px; /* Optional: spacing around the image */
       }
+
     </style>
   </head>
   <body>
