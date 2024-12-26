@@ -64,6 +64,16 @@
       <img src = "file.png">
       <img src= "notepad.png">
     </div>
+    <div id="googleframe" class="window">
+<div class="framehidden" id="googleframeheader">
+    <span class="control-box">
+    <button class="controls" onclick="toggleWindow('gwindow', 'googleframeheader')"> - </button>
+    <button class="controls" onclick="fullscreen('googleframe')"> ❐ </button>
+    <button class="controls" id="close" onclick="toggleWindow('gwindow', 'googleframeheader')"> X </button>
+    </span>
+</div>
+<iframe src="https://www.google.com/search?igu=1" id = "gwindow" class="windowhidden"></iframe>
+</div>
   </body>
   <!--Charles--->
 </html>
